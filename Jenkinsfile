@@ -5,6 +5,7 @@ pipeline {
             steps {
                 echo 'Webhook is working! Pipeline triggered successfully.'
                 sh 'echo Repository contents:; ls -la'
+                sh 'echo Docker ps:; docker ps'
             }
         }
     }
