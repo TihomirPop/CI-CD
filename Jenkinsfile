@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Webhook is working! Pipeline triggered successfully!'
+                echo 'Webhook is working! Pipeline triggered successfully.'
                 sh 'echo Repository contents:; ls -la'
             }
         }
